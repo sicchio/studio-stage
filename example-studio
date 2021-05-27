@@ -1,0 +1,9 @@
+##studio//stage
+
+main = x:allRules* {  return "##cinecer0\n" + x.join("") }
+allRules = flipflop/ walking/ anyCharacter
+anyCharacter = .
+
+flipflop = "flipflop"i { return "https://github.com/sicchio/test_video/blob/main/phrase1.mov?raw=true"}
+
+walking = "walking"i { return "https://github.com/sicchio/test_video/blob/main/one_walk_both.mov?raw=true"}

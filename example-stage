@@ -1,0 +1,5 @@
+##studiostage
+
+
+Every 8 2 $ setSize 0.3 $ setPosX (-0.4) $ rectMask 0.0 0.2 0.0 0.2 $ "walking"
+

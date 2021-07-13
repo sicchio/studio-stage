@@ -1,5 +1,18 @@
 ##studiostage
+stack 0.55 $ square $ small $ "swing"
+
+##studiostage
+square $ small $ "swing"
+
+##studiostage
+stack (-0.55) $ square $ small $ "swing"
 
 
-Every 8 2 $ setSize 0.3 $ setPosX (-0.4) $ rectMask 0.0 0.2 0.0 0.2 $ "walking"
+##studiostage
+ side 0.3 $ stack 0.55 $ square $ small $ "swing"
+ 
+##studiostage
+side 0.3 $ square $ small $ "swing"
 
+##studiostage
+side 0.3 $ stack (-0.55) $ square $ small $ "swing"

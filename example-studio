@@ -8,6 +8,9 @@ anyCharacter = .
 swing = "swing"i { return "https://github.com/sicchio/studio-stage/blob/main/CineCer0Clips/Both_action_swing.mp4?raw=true"}
 tennis ="tennis"i { return "https://github.com/sicchio/studio-stage/blob/main/CineCer0Clips/Both_action_tennis.mp4?raw=true"}
 low = "low"i { return "https://github.com/sicchio/studio-stage/blob/main/CineCer0Clips/Both_dance_low1.mp4?raw=true"}
+tamara = "tamara"i{ return "https://github.com/sicchio/studio-stage/blob/main/CineCer0Clips/TD_attack.mp4?raw=true"}
+taylor = "taylor"i{ return "https://github.com/sicchio/studio-stage/blob/main/CineCer0Clips/TC_action_hopping.mp4?raw=true"}
+
 
 //video
 square = "square"i { return "rectMask 0.0 0.2 0.0 0.2"}

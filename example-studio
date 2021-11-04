@@ -1,7 +1,7 @@
 ##JSoLang studiostage
 
 main = x:allRules* {  return "##cinecer0\n" + x.join("") }
-allRules = tamara/ taylor/ swing/ square/ small/ stack/ side/ heavy/ quick/ zoom/ tennis/ staccato/ shorten/ low/ anyCharacter
+allRules = travel/ turn/ tamara/ taylor/ swing/ square/ small/ stack/ side/ heavy/ quick/ zoom/ tennis/ staccato/ shorten/ low/ anyCharacter
 anyCharacter = .
 
 //movement
@@ -18,9 +18,11 @@ stack = "stack"i { return "setPosY"}
 side = "side"i { return "setPosX"}
 small = "small"i { return "setSize 0.4"}
 zoom ="zoom"i { return "setSize (sin 0.1) "}
+turn = "turn"i { return "setRotate (range 0 360 $ sin 0.1)"}
 
 //dynamics
 heavy = "heavy"i { return "every 10 0"}
 quick = "quick"i {return "every 2 0 "}
 staccato ="staccato"{return "every 2 8"}
 shorten="shorten"i{return "seg 0.25 0.3 0.25 "}
+travel = "travel"i{return "setPosX (sin 0.1)" }

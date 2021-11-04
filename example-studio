@@ -1,7 +1,7 @@
 ##JSoLang studiostage
 
 main = x:allRules* {  return "##cinecer0\n" + x.join("") }
-allRules = swing/ square/ small/ stack/ side/ heavy/ quick/ zoom/ tennis/ staccato/ shorten/ low/ anyCharacter
+allRules = tamara/ taylor/ swing/ square/ small/ stack/ side/ heavy/ quick/ zoom/ tennis/ staccato/ shorten/ low/ anyCharacter
 anyCharacter = .
 
 //movement
